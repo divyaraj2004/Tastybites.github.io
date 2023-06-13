@@ -1,0 +1,58 @@
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    padding: 12px 5px;
+}
+
+#navbar ul li a:hover {
+    border: none;
+    background: none;
+    border-radius: 0px;
+    border-top: 2px solid blueviolet;
+}
+
+
+
+#services {
+    flex-direction: column;
+    margin: 14px 9px;
+}
+
+
+#home {
+    height: 345px;
+    padding: 2px 5px;
+}
+
+#home::before {
+    height: 474px;
+    width: 100%;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+.h-primary {
+    font-size: 21px;
+    padding: 23px 9px;
+}
+
+.h-primary a {
+    font-size: 22px;
+}
+
+#client {
+    flex-direction: column;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 250px;
+}
+
+#contact button {
+    margin-left: 23px;
+}
